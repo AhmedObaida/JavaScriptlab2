@@ -1,9 +1,19 @@
-var Num =prompt("Enter a number");
-var Sum = 0;
-while(Num != 0)
+// var Num =prompt("Enter a number");
+// var Sum = 0;
+// while(Num != 0)
+// {
+//     Sum += Num%10;
+//     Num = Math.floor(Num/10);
+// }
+
+// console.log(Sum);
+
+var num = prompt("enter a number");
+var sum = 0;
+
+for(i=0;i<num.length;i++)
 {
-    Sum += Num%10;
-    Num = Math.floor(Num/10);
+    sum = sum + Number( num[i]);
 }
 
-console.log(Sum);
+console.log(sum);
